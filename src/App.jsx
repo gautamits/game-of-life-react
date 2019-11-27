@@ -140,7 +140,7 @@ export default function App(props){
   },[board])
 
   function doNothing(){}
-
+	console.log('running');
   return (
     <div className="App">
     <form style={{display:'inline'}}>

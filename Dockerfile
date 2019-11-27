@@ -9,5 +9,5 @@ COPY /.  .
 RUN npm install
 RUN npm run build
 RUN npm install -g serve
-CMD ["serve","-s","build"]
+CMD ["serve","-s","build","-p","5000"]
 EXPOSE 5000

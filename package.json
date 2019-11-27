@@ -2,13 +2,14 @@
   "name": "game-of-life",
   "version": "0.1.0",
   "private": true,
-"homepage":"game-of-life",
+  "homepage": "game-of-life",
   "dependencies": {
     "node-sass": "^4.13.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "2.1.1",
-    "react-toastify": "^4.5.1"
+    "react-toastify": "^4.5.1",
+    "serve": "^11.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
